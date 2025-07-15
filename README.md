@@ -1,24 +1,7 @@
 # bilibili-vue
 
-## Project setup
-```
-npm install
-```
+This repository contains the Vue.js front-end for the Bilibili video-streaming platform. It provides:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- A Vue 3 single-page application scaffolded with Vue CLI v5.
+- Routing via Vue Router with two example paths (`/` and `/userLogin`).
+- Reusable components under `src/components` (`HelloWorld.vue`, `UserLogin.vue`) built with the Composition API.
