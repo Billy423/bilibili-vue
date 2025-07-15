@@ -23,12 +23,12 @@
       </div>
 
       <div class='user-login-form-footer'>
-        <button @click='register' class='user-login-form-footer-btn'>
+        <el-button type="primary" @click='register' class='user-login-form-footer-btn'>
           Register
-        </button>
-        <button @click='login' class='user-login-form-footer-btn'>
+        </el-button>
+        <el-button type="primary" @click='login' class='user-login-form-footer-btn'>
           Login
-        </button>
+        </el-button>
       </div>
 
     </div>
@@ -170,18 +170,14 @@ onUnmounted(() => console.log('unmounted'))
     .user-login-form-footer {
       display: flex;
       justify-content: space-between;
-      margin-top: 30px;
-      gap: 15px;
 
       .user-login-form-footer-btn {
         padding: 14px 24px;
         font-size: 16px;
-        font-weight: 600;
         border-radius: 10px;
         cursor: pointer;
         transition: all 0.3s ease;
-        flex: none;
-        min-width: 110px;
+        width: 100%;
         text-align: center;
 
         &:first-child {
